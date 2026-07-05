@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saguadin | Inicio</title>
+    <meta
+      name="description"
+      content="Site pessoal de Saguadin, Vibecode e Lua."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html"><span></span> Saguadin</a>
+        <nav class="nav-links">
+          <a href="index.html" class="active">Inicio</a>
+          <a href="about.html">Sobre</a>
+          <a href="projects.html">Links</a>
+          <a href="animes.html">Animes</a>
+          <a href="contact.html">Contato</a>
+        </nav>
+        <a class="language" href="#">EN</a>
+      </header>
+
+      <main>
+        <section class="hero grid-2">
+          <div class="hero-content">
+            <p class="eyebrow">Vibecode &bull; Lua</p>
+            <h1>Saguadin</h1>
+            <p class="hero-copy">
+              Vibecode, Lua, scripts e projetos web com visual moderno.
+            </p>
+            <div class="hero-actions">
+              <a class="button secondary" href="projects.html">Links</a>
+            </div>
+            <div class="link-chips">
+              <a href="#">YouTube</a>
+              <a href="#">Discord</a>
+              <a href="#">Vibecode</a>
+              <a href="#">Lua</a>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="orb"></div>
+            <div class="profile-card">
+              <div class="profile-head">
+                <div class="avatar"></div>
+                <div class="status-pill"><span></span> Online</div>
+              </div>
+              <p class="panel-label">Status</p>
+              <h2>Vibecode / Lua</h2>
+              <div class="code-window">
+                <div class="window-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <pre><code>const saguadin = {
+  nick: "Saguadin",
+  languages: ["Vibecode", "Lua"],
+  build: "web projects"
+};</code></pre>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about-strip">
+          <div>
+            <p class="eyebrow">Sobre</p>
+            <h2>Minha bagunca virtual.</h2>
+          </div>
+          <article class="card about-text">
+            <p>
+              Bem-vindo ao meu site! Decidi criar este espaco inspirado pelo Moonie, alguem que me motivou a compartilhar mais da minha jornada na internet. Enfim, me chamo Saguadin e sou uma pessoa comum, mas que gosta de explorar diferentes mundos virtuais. Tenho o habito de jogar varios jogos, mas, para ser honesto, sou bem ruim em todos! Haha, mas isso faz parte da diversao, ne? Aqui voce vai encontrar um pouco do que gosto, meus desafios e quem sabe, ate algumas risadas enquanto tento melhorar nos jogos. Espero que curta a visita e se divirta tanto quanto eu me divirto nessa bagunca virtual!
+            </p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <aside class="music-player" aria-label="Now playing">
+      <div class="mini-cover"></div>
+      <button class="play-button" type="button" aria-label="Play"></button>
+      <div class="track-info">
+        <strong>Now playing</strong>
+        <span>VEIGH ArtistaGenerico</span>
+        <div class="progress"><span></span></div>
+      </div>
+      <time class="current-time">0:00</time>
+      <label class="volume-control" aria-label="Volume">
+        <span class="volume-slider" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="18" tabindex="0">
+          <span class="volume-level"></span>
+        </span>
+      </label>
+    </aside>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Saguadin. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
